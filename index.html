@@ -1,9 +1,509 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
+<head>
+  <meta charset="utf-8">
+
+  <style>
+    #more2 {
+      display: none;
+    }
+
+    #more {
+      display: none;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,300;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Topeng Cirebon</title>
+</head>
+
 <body>
-<link rel="stylesheet" href="style.css">
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+  <header id="home">
+    <a href="#" class="logo"><img src="UAS aset/LOGO.png" height="50" alt="" /></a>
+    <ul>
+      <li><a href="#home" class="active">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#galeri">GALLERY</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </header>
+  <section>
+    <h2 id="text">TOPENG CIREBON</h2>
+    <img src="UAS aset/Logo topbon-01-01.png" id="logo">
+    <img src="UAS aset/web aset-01.png" id="awan">
+    <script>
+      let logo = document.getElementById('logo');
+      let awan = document.getElementById('awan');
+      let text = document.getElementById('text');
+
+      window.addEventListener('scroll', function () {
+        let value = window.scrollY;
+        logo.style.top = value * 1 + 'px';
+        awan.style.top = value * 0.5 + 'px';
+        text.style.marginTop = value * 0.7 + 'px';
+      })
+    </script>
+  </section>
+  <div class="sec">
+    <h2> Topeng Cirebon</h2>
+    <p> Topeng Cirebon adalah topeng yang terbuat dari kayu yang cukup lunak dan mudah dibentuk namun tetap dibutuhkan
+      ketekunan, ketelitian yang tepat, serta membutuhkan waktu yang tidak sebentar dalam proses pembuatannya. Bahkan
+      seorang pengrajin yang sudah ahli pun untuk membuat satu topeng membutuhkan waktu hingga satu hari. Kayu yang
+      biasa digunakan adalah kayu jarang. Topeng ini biasanya digunakan untuk kesenian tari topeng.<br><br>Menurut Hasan
+      Nawi, salah seorang pengrajin topeng Cirebon dalam kehidupan sehari-hari setiap manusia seperti mengenakan topeng,
+      misalnya saja pada saat marah seperti sudah mengganti topeng berwajah ceria dengan topeng kemarahan. Kalau ada
+      orang dewasa yang sikapnya kekanak-kanakan maka ia seperti sedang mengganti topeng dewasanya dengan topeng
+      anak-anak.<br><br>Topeng Cirebon yang semula berpusat di Keraton-keraton, kini tersebar di lingkungan rakyat
+      petani pedesaan. Dan seperti umumnya kesenian rakyat, maka Topeng Cirebon juga dengan cepat mengalami
+      transformasi-transformasi. Proses transformasi itu berakhir dengan keadaannya yang sekarang, yakni berkembangnya
+      berbagai “gaya” Topeng Cirebon, seperti Losari, Selangit, Kreo, Palimanan dan lain-lain.<br><br>Untuk
+      merekonstruksi kembali Topeng Cirebon yang baku, diperlukan studi perbandingan seni. Berbagai gaya Topeng Cirebon
+      tadi harus diperbandingkan satu sama lain sehingga tercapai pola dan strukturnya yang mendasarinya. Dengan metode
+      demikian,maka akan kita peroleh bentuk yang mendekati “aslinya”. Namun metode ini tak dapat dilakukan tanpa
+      berbekal dasar filosofi tariannya. Dari mana filsafat tari Topeng Cirebon itu dapat dipastikan? Tentu saja dari
+      serpihan-serpihan tarian yang sekarang ada dan dipadukan dengan konteks budaya munculnya tarian tersebut. Konteks
+      budaya Topeng Cirebon tentu tidak dapat dikembalikan pada budaya Cirebon sendiri yang sekarang. Untuk itu
+      diperlukan penelusuran historis terhadapnya.<br><br>Siapakah Empu pencipta tarian ini? Sampai kiamat pun kita tak
+      akan mengetahuinya, lantaran masyarakat Indonesia lama tidak akrab dengan budaya tulis. Meskipun budaya tulis
+      dikenal di Keraton-keraton Indonesia, tetapi tidak terdapat kebiasaan mencatat pencipta-pencipta kesenian, kecuali
+      dalam beberapa karya sastranya saja. <br>Di zaman mana? Kalau pencipta tidak dikenal, sekurang-kurangnya di zaman
+      mana Topeng Cirebon ini telah ada? Kepastian tentang ini tidak ada. Namun ada dugaan bahwa di zaman Raja
+      Majapahit, Hayam Wuruk, tarian ini sudah dikenal.<br><br>Dalam Negarakertagama dan Pararaton dikisahkan raja ini
+      menari topeng (kedok) yang terbuat dari emas. Hayam Wuruk menarikan topeng emas (atapel, anapuk) di lingkungan
+      kaum perempuan istana Majapahit. Jadi Tari topeng Cirebon ini semula hanya ditarikan para raja dengan penonton
+      perempuan (istri-istri raja, adik-adik perempuan raja, ipar-ipar perempuan raja, ibu mertua raja, ibunda raja).
+    </p>
+  </div>
+
+  <div class="konten">
+    <div class="box1"></div>
+    <div class="paragraph" id="up">
+      <p>Semua jenis topeng ini akan dikenakan pada saat pementasan tari topeng Cirebonan yang diiringi dengan gamelan.
+        Tepeng Cirebon yang paling pokok ada lima yang disebut juga Topeng Panca Wanda :
+      </p>
+
+      <li class="list">Panji, wajahnya yang putih bersih melambangkan kesucian bayi yang baru lahir</li>
+      <li class="list">Samba (Pamindo), topeng anak-anak yang berwajah ceria, lucu, dan lincah</li>
+      <li class="list">Rumyang, wajahnya menggambarkan seorang remaja</li>
+      <li class="list">Patih (Tumenggung), topeng ini menggambarkan orang dewasa yang berwajah tegas, berkepribadian,
+        serta bertanggung jawab</li>
+      <li class="list">Kelana (Rahwana), topeng yang menggambarkan seseorang yang sedang marah</li>
+
+      <div class="next"><a href="#topengpanca" class="button">topeng panca wanda</a></div>
+    </div>
+    <img src="UAS aset/Foto Topeng.jpg" height="400" alt="" class="gambar2" />
+  </div>
+  <div class="konten2">
+    <div class="pagebreak">
+      <img src="UAS aset/Awan Mega Mendung.png" height="300" alt="" class="megamendung" />
+    </div>
+    <div class="heading2">THE JOURNEY</div>
+    <div class="box1"></div>
+    <div class="parg2">
+      <p>Dengan demikian dapat diduga bahwa Topeng Cirebon ini sudah populer di zaman Majapahit antara tahun 1300 sampai
+        1400 tarikh Masehi. Mencari dasar filosofi tarian ini harus dikembalikan pada sistem kepercayaan
+        Hindu-Budha-Jawa zaman Majapahit. Tetapi mengapa sampai di Keraton Cirebon? Setelah jatuhnya kerajaan Majapahit
+        (1525), tarian ini rupanya dihidupkan oleh Sultan-sultan Demak yang mungkin mengagumi tarian ini atau memang
+        dibutuhkan dalam kerangka konsep kekuasaan yang tetap spiritual.<br><br>Dalam babad dikisahkan bahwa Raden Patah
+        menari Klana di kaki Gunung Lawu di hadapan Raja Majapahit, Brawijaya. Ini justru membuktikan bahwa Topeng
+        Cirebon erat hubungannya dengan konsep kekuasaan Jawa. Bahwa hanya Raja yang berkuasa dapat menarikan topeng
+        ini, ditunjukkan oleh babad, yang berarti kekuasaan atas Jawa telah beralih kepada Raden Patah, dan Raja
+        Majapahit hanya sebagai penonton</p>
+    </div>
+    <img src="UAS aset/Foto Topeng (2).jpg" height="290" alt="" class="gambar3">
+    <div class="paragraph2">
+      <p> Dari Demak tarian ini terbawa bersama penyebaran pengaruh politik Demak. Demak yang pesisir ini memperluas
+        pengaruh kekuasaan dan Islamisasinya di seluruh daerah pesisir Jawa, yang ke arah barat sampai di Keraton
+        Cirebon dan Keraton Banten.<span id="dots">...</span><span id="more">Inilah sebabnya berita-berita Belanda
+          menyebutkan keberadaan tarian in di Istana Banten. Banten dan Cirebon, sedikit banyak membawa kebudayaan
+          Jawa-Demak, terbukti dari penggunaan bahasa Jawa lamanya. Sedangkan Demak sendiri dilanjutkan oleh Pajang yang
+          berada di pedalaman, kemudian digantikan oleh Mataram yang juga di pedalaman.<br><br>
+          Topeng Majapahit ini hanya hidup di daerah pesisir Jawa Barat, sedangkan di Jawa pedalaman topeng tidak hidup
+          kecuali bentuk dramatik lakon Panjinya. Kalau topeng tetap hidup dalam fungsi ritualnya, tentunya juga
+          berkembang di kerajaan-kerajaan Islam Jawa pedalaman. Rupanya topeng dipelihara di Jawa Barat karena pesona
+          seninya. Topeng sangat puitik dan kurang mengacu pada mitologi Panji yang hinduistik. Topeng lebih dilihat
+          sebagai simbol yang mengacu pada realitas transenden. Inilah sebabnya sultan-sultan di Jawa Barat yang kuat
+          Islamnya masih memelihara kesenian ini.<br><br>
+          Topeng Cirebon adalah simbol penciptaan semesta yang berdasarkan sistem kepercayaan Indonesia purba dan
+          Hindu-Budha-Majapahit. Paham kepercayaan asli, di mana pun di Indonesia, dalam hal penciptaan, adalah emanasi.
+          Paham emanasi ini diperkaya dengan kepercayaan Hindu dan Budha. Paham emanasi tidak membedakan Pencipta dan
+          ciptaan, karena ciptaan adalah bagian atau pancaran dari Sang Hyang Tunggal.<br><br>
+          Siapakah Sang Hyang Tunggal itu? Dia adalah ketidak-berbedaan. Dalam diriNya adalah ketunggalan mutlak.
+          Sedangkan semesta ini adalah keberbedaan. Semesta itu suatu aneka, keberagaman. Dan keanekan itu terdiri dari
+          pasangan sifat-sifat yang saling bertentangan tetapi saling melengkapi. Pemahaman ini umum di seluruh
+          Indonesia purba, bahkan di Asia Tenggara dan Pasifik. Dan filsuf-filsuf Yunani pra-Sokrates, filsuf-filsuf
+          alam, juga mengenal pemahaman ini. Boleh dikatakan, pandangan bahwa segala sesuatu ini terdiri dari pasangan
+          kembar yang saling bertentangan tetapi merupakan pasangan, adalah universal manusia purba.<br><br>
+          Mengandung semua sifat ciptaan. Sang Hyang Tunggal Indonesia purba ini mengandung semua sifat ciptaan. Karena
+          semua sifat yang dikenal manusia itu saling bertentangan, maka dalam diri Sang Hyang Tunggal semua pasangan
+          oposisi kembar tadi hadir dalam keseimbangan yang sempurna. Sifat-sifat positif melebur jadi satu dengan
+          sifat-sifat negatif. Akibatnya semua sifat-sifat yang dikenal manusia berada secara seimbang dalam diriNya
+          sehingga Sifat itu tidak dikenal manusia alias Kosong mutlak. Paradoksnya justru Kosong itu Kepenuhan sejati
+          karena Dia mengandung semua sifat yang ada. Kosong itu Penuh, Penuh itu Kosong, itulah Sang Hyang Tunggal itu.
+          Di dalamNya tiak ada perbedaan, tunggal mutlak. Di Cina purba, Sang Hyang Tunggal ini disebut Tao.
+
+        </span>
+      </p>
+      <button onclick="myFunction()" id="myBtn" class="button2">Read more</button>
+      <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Close";
+            moreText.style.display = "inline";
+          }
+        }
+      </script>
+    </div>
+    <img src="UAS aset/Logo TopBon.png" height="100" alt="" class="corner" />
+  </div>
+  <div class="konten3">
+    <div class="heading3">CERITA LENGKAP</div>
+    <img src="UAS aset/Foto Topeng (3).jpg" alt="" class="gambar5" />
+    <div class="paragraph3">
+      <p>Topeng Cirebon menyimbolkan bagaimana asal mula Sang Hyang Tunggal ini memecahkan diriNya dalam
+        pasangan-pasangan kembar saling bertentangan itu, seperti terang dan gelap, lelaki dan perempuan, daratan dan
+        laut. Dalam tarian ini digambarkan lewat tari Panji, yakni tarian yang pertama. Tarian Panji ini merupakan
+        masterpiece rangkaian lima tarian topeng Cirebon. Tarian Panji justru merupakan klimaks pertunjukan. Itulah
+        peristiwa transformasi Sang Hyang Tunggal menjadi semesta. Dari yang tunggal belah menjadi yang aneka dalam
+        pasangan-pasangan.<br><br>
+        Inilah sebabnya kedok Panji tak dapat kita kenali secara pasti apakah itu perwujudan lelaki atau perempuan.
+        Apakah gerak-geriknya lelaki atau perempuan. Kedoknya sama sekali putih bersih tanpa hiasan, itulah Kosong.
+        Gerak-gerak tariannya amat minim, namun iringan gamelannya gemuruh. Itulah wujud paradoks antara gerak dan diam.
+        Tarian Panji sepenuhnya sebuah paradoks. Inilah kegeniusan para empu purba itu, bagaimana menghadirkan Hyang
+        Tunggal dalam transformasinya menjadi aneka, dari ketidakberbedaan menjadi perbedaan-perbedaan. Itulah puncak
+        topeng Cirebon, yang lain hanyalah terjemahan dari proses pembedaan itu.<br><br>
+        Empat tarian sisanya adalah perwujudan emanasi dari Hyang Tunggal tadi. Sang Hyang Tunggal membagi diriNya ke
+        dalam dua pasangan yang saling bertentangan, yakni “Pamindo-Rumyang”, dan “Patih-Klana”. Inilah sebabnya kedok
+        “Pamindo-Rumyang” berwarna cerah, sedangkan “Patih-Klana” berwarna gelap (merah tua).<br><br><span
+          id="dots2">...</span><span id="more2">
+          Gerak tari “Pamindo-Rumyang” halus keperempuan-perempuanan, sedangkan Patih-Klana gagah kelaki-lakian.
+          Pamindo-Rumyang menggambarkan pihak “dalam” (istri dan adik ipar Panji) dan Patih-Klana menggambarkan pihak
+          “luar”. Terang dapat berarti siang, gelap dapat berarti malam. Matahari dan bulan. Tetapi harus diingat bahwa
+          semuanya itu adalah Panji sendiri, yang membelah dirinya menjadi dua pasangan saling bertentangan
+          sifat-sifatnya. Inilah sebabnya keempat tarian setelah Panji mengandung unsur-unsur tarian Panji. Untuk hal
+          ini orang-orang tari tentu lebih fasih menjelaskannya.<br><br>
+          Topeng Panji menyimbolkan peristiwa besar universal, yakni terciptanya alam semesta beserta manusia ini pada
+          awal mulanya. Topeng Panjing atau topeng Cirebon ini mengulangi peristiwa primordial umat manusia, bagaimana
+          “penciptaan” terjadi. Tidak mengherankan kalau di zaman dahulu hanya ditarikan oleh para raja. Raja mewakili
+          kehadiran Sang Hyang Tunggal itu sendiri, karena dalam paham kekuasaan Jawa, Raja adalah Dewa itu sendiri,
+          yang dikenal dengan paham dewa-Raja.<br><br>
+          Topeng Cirebon adalah gambaran sangat puitik tentang hadirnya alam semesta serta umat manusia. Sang Hyang
+          Tunggal yang merupakan ketunggalan mutlak tanpa pembedaan, berubah menjadi keanekaan relatif yang sangat
+          berbeda-beda sifatnya. Tari Panji adalah tarian Sang Hyang Tunggal itu sendiri, dan tarian-tarian lainnya yang
+          empat adalah perwujudan dari emanasi diriNya menjadi pasangan-pasangan sifat yang saling bertentangan.<br>
+          Topeng Cirebon adalah tarian ritual yang amat sakral. Tarian ini sama sekali bukan tontonan hiburan. Itulah
+          sebabnya dalam kitab-kitab lama disebutkan, bahwa raja menarikan Panji dalam ruang terbatas yang disaksikan
+          saudara-saudara perempuannya. Untuk menarikan topeng ini diperlukan laku puasa, pantang, semedi, yang sampai
+          sekarang ini masih dipatuhi oleh para dalang topeng di daerah Cirebon.<br><br>
+          Tarian juga harus didahului oleh persediaan sajian. Dan sajian itu bukan persembahan makanan untuk Sang Hyang
+          Tunggal. Sajian adalah lambang-lambang dualisme dan pengesaan. Inilah sebabnya dalam sajian sering dijumpai
+          bedak, sisir, cermin yang merupakan lambang perempuan, didampingi oleh cerutu atau rokok sebagai lambang
+          lelaki. Bubur merah lambang dunia manusia, bubur putih lambang Dunia Atas. Cowek batu yang kasar sebagai
+          lambang lelaki, dan uleg dari kayu yang halus sebagai lambang perempuan. Pisang lambang lelaki, buah jambu
+          lambang perempuan. Air kopi lambang Dunia Bawah, air putih lambang Dunia Atas, air teh lambang Dunia Tengah.
+          Sesajian adalah lambang keanekaan yang ditunggalkan.
+
+
+        </span>
+      </p>
+      <button onclick="myFunction_2()" id="myBtn2" class="button2">Read more</button>
+      <script>
+        {} function myFunction_2() {
+          var dots_2 = document.getElementById("dots2");
+          var moreText_2 = document.getElementById("more2");
+          var btnText_2 = document.getElementById("myBtn2");
+
+          if (dots_2.style.display === "none") {
+            dots_2.style.display = "inline";
+            btnText_2.innerHTML = "Read more";
+            moreText_2.style.display = "none";
+          } else {
+            dots_2.style.display = "none";
+            btnText_2.innerHTML = "Close";
+            moreText_2.style.display = "inline";
+          }
+        }
+      </script>
+    </div>
+  </div>
+  <div class="konten4" id="galeri">
+    <img src="UAS aset/Foto Tari (4).jpg" height="50%" alt="" class="gambar4" />
+    <div class="head3"><img src="UAS aset/Awan Mega Mendung.png" height="300" alt="" class="megamendung" /></div>
+    <div class="box1"></div>
+    <div id="galeri" class="heading4">GALERI TOPENG</div>
+    <div class="container_image">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 8</div>
+        <img src="UAS aset/jejeran topeng-01.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 8</div>
+        <img src="UAS aset/Panji_slideshow-01.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 8</div>
+        <img src="UAS aset/Samba_slideshow-01.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 8</div>
+        <img src="UAS aset/Rumyang_slidesshow-01.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 8</div>
+        <img src="UAS aset/Tumenggung_slideshow-01.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">6 / 8</div>
+        <img src="UAS aset/Kelana_slideshow-01.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">7 / 8</div>
+        <img src="UAS aset/Slideshow 6-01.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">7 / 8</div>
+        <img src="UAS aset/slideshow 7-01.png" style="width:100%">
+      </div>
+
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next2" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+
+        <!-- Thumbnail images -->
+        <div class="row2">
+          <div class="column2">
+            <img class="demo cursor" src="UAS aset/jejeran topeng-01.png" style="width:100%" onclick="currentSlide(1)"
+              alt="MACAM TOPENG">
+          </div>
+          <div class="column2">
+            <img class="demo cursor" src="UAS aset/Panji_slideshow-01.png" style="width:100%" onclick="currentSlide(2)"
+              alt="PANJI">
+          </div>
+          <div class="column2">
+            <img class="demo cursor" src="UAS aset/Samba_slideshow-01.png" style="width:100%" onclick="currentSlide(3)"
+              alt="SAMBA">
+          </div>
+          <div class="column2">
+            <img class="demo cursor" src="UAS aset/Rumyang_slidesshow-01.png" style="width:100%"
+              onclick="currentSlide(4)" alt="RUMYANG">
+          </div>
+          <div class="column2">
+            <img class="demo cursor" src="UAS aset/Tumenggung_slideshow-01.png" style="width:100%"
+              onclick="currentSlide(5)" alt="TUMENGGUNG">
+          </div>
+          <div class="column2">
+            <img class="demo cursor" src="UAS aset/Kelana_slideshow-01.png" style="width:100%" onclick="currentSlide(6)"
+              alt="KELANA">
+          </div>
+          <div class="column2">
+            <img class="demo cursor" src="UAS aset/Slideshow 6-01.png" style="width:100%" onclick="currentSlide(7)"
+              alt="Tari Topeng 1">
+          </div>
+          <div class="column2">
+            <img class="demo cursor" src="UAS aset/slideshow 7-01.png" style="width:100%" onclick="currentSlide(8)"
+              alt="Tari Topeng 2">
+          </div>
+        </div>
+        <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+
+          // Next/previous controls
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          // Thumbnail image controls
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+          }
+        </script>
+      </div>
+
+    </div>
+    <hr>
+    <hr>
+    <div class="heading2" id="topengpanca">topeng panca wanda</div>
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="UAS aset/PANJI.png" alt="" class="topeng" />
+              </div>
+              <div class="flip-card-back">
+                <h1>PANJI</h1>
+                <p>wajahnya yang putih bersih melambangkan kesucian bayi yang baru lahir</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="UAS aset/SAMBA.png" alt="" class="topeng" />
+              </div>
+              <div class="flip-card-back">
+                <h1>SAMBA</h1>
+                <p>topeng anak-anak yang berwajah ceria, lucu, dan lincah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="UAS aset/RUMYANG.png" alt="" class="topeng" />
+              </div>
+              <div class="flip-card-back">
+                <h1>RUMYANG</h1>
+                <p>wajahnya menggambarkan seorang remaja</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="UAS aset/TUMENGGUNG.png" alt="" class="topeng" />
+              </div>
+              <div class="flip-card-back">
+                <h1>TUMENGGUNG</h1>
+                <p>topeng ini menggambarkan orang dewasa yang berwajah tegas, berkepribadian, serta bertanggung jawab
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="UAS aset/KELANA.png" alt="" class="topeng" />
+              </div>
+              <div class="flip-card-back">
+                <h1>KELANA</h1>
+                <p>topeng yang menggambarkan seseorang yang sedang marah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="next-up"><a href="#up" class="button">Back to up</a></div>
+  </div>
+  <div class="about-us" id="about">
+    <div class="about-section">
+      <h1>About Us</h1>
+      <p>meet our team </p>
+      <p>This is a small team that made a website entitled "Topeng Cirebon", if you have anything you want to ask, you
+        can contact us through the contact below</p>
+    </div>
+
+    <h2 class="H2-sec" style="text-align:center">Our Team</h2>
+    <div class="row">
+      <div class="column3">
+        <div class="card">
+          <img src="UAS aset/devin.jfif" alt="Devin" style="width:100%">
+          <div class="container3">
+            <h2>Devin Maulana H</h2>
+            <p class="title">Programmer</p>
+            <p>Programmer this web</p>
+            <p>devinmaulanah@upi.edu</p>
+            <p><a class="button3" href="https://www.instagram.com/devinmln/?hl=en">Contact</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column3">
+        <div class="card">
+          <img src="UAS aset/kemal.jfif" alt="Mike" style="width:100%">
+          <div class="container3">
+            <h2>Kemal Fasya</h2>
+            <p class="title">Content Creator</p>
+            <p>make and arrange the content on this web</p>
+            <p>kemalfasya96@upi.edu</p>
+            <p><a class="button3" href="https://www.instagram.com/kemal_fz/?hl=en">Contact</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column3">
+        <div class="card">
+          <img src="UAS aset/uyan.jfif" alt="John" style="width:94%">
+          <div class="container3">
+            <h2>Muhammad Nurbayan</h2>
+            <p class="title">Designer</p>
+            <p>the maker of layout and positioning in this web</p>
+            <p>mnurbayan@upi.edu</p>
+            <p><a class="button3" href="https://www.instagram.com/muhamad_nurbayan/?hl=en">Contact</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Sebaik-baiknya Pemuda adalah Pemuda yang Melestarikan Budaya<br>@2022</p>
+    <ul id="contact">
+      <li><a href="#" class="active">home</a></li>
+      <li><a href="#">topengcirebon@gmail.com</a></li>
+      <li><a href="#">Topeng Cirebon</a></li>
+      <li><a href="#">@topbon_</a></li>
+      <li><a href="#">@topbon_</a></li>
+      <li><a href="#">Whatsapp</a></li>
+    </ul>
+  </footer>
 
 </body>
+
 </html>
